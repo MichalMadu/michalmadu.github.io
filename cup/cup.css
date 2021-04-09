@@ -1,0 +1,40 @@
+body {
+  background: #007580;
+}
+
+.coffee {
+  height: 56px;
+  width: 50px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 0 0 8px 8px;
+  transform: translate(-50%, -50%);
+}
+
+.coffee::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 24px;
+  box-sizing: border-box;
+  border: 6px solid white;
+  right: -20px;
+  top: 4px;
+  border-radius: 0 2px 20px 0;
+}
+
+.coffee:after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: white;
+  border-radius: 50%;
+  top: -24px;
+  left: 16px;
+  filter: blur(4px);
+  box-shadow: 0px -20px 4px -1px white, 22px -4px 4px -2px white, -20px -24px 4px white, 34px 0 4px -4px white, 20px -34px 4px -2px white;
+}
