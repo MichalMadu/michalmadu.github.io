@@ -7,10 +7,11 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
     data.forEach((movie) => {
+      document.write("Title: ");
       document.write(movie.title);
-      document.write(", ");
+      document.write(", Rate: ");
       document.write(movie.rt_score);
-      document.write("<br>")
+      document.write(",<br>")
     })
   } else {
     console.log('error')
