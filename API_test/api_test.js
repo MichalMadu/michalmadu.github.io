@@ -1,7 +1,7 @@
-fetch('https://ghibliapi.herokuapp.com/films')
+fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => {
     return response.json();
 })
-.then(title => {
-    console.log(title);
+.then(users => {
+    console.log(users);
 });
