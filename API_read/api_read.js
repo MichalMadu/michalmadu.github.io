@@ -11,7 +11,7 @@ request.onload = function () {
       document.write(movie.title);
       document.write(", Rate: ");
       document.write(movie.rt_score);
-      document.write(",<br>")
+      document.write("%,<br>")
     })
   } else {
     console.log('error')
