@@ -7,6 +7,14 @@ request.onload = function () {
 
   if (request.status >= 200 && request.status < 400) {
     data.forEach((movie) => {
+      document.write("
+                     <table class="w3-table-all">
+                      <tr>
+                        <th>Title</th>
+                        <th>Rate</th>
+                       </tr>
+                      <tr>");
+                     
       document.write("Title: ");
       document.write(movie.title);
       document.write(", Rate: ");
