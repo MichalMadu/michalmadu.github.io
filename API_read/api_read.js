@@ -8,6 +8,8 @@ request.onload = function () {
   if (request.status >= 200 && request.status < 400) {
     data.forEach((movie) => {
       document.write(movie.title);
+      document.write(", ");
+      document.write(movie.rt_score);
       document.write("<br>")
     })
   } else {
