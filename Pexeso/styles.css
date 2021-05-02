@@ -17,6 +17,10 @@ body {
   border: 2px solid aqua;
 }
   
+.front-face,
+.back-face {
+  width: 2px solid deeppink;
+}
 
 img {
   width: 100px;
