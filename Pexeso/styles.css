@@ -10,18 +10,20 @@ body {
 }
 
 .memory-game {
+  height: 640px;
+  width: 480px;
+  display: flex;
+  flex-wrap: wrap;
   border: 2px solid limegreen;
 }
 
 .memory-card {
+  width: 25%;
+  height: 33.3333%;
   border: 2px solid aqua;
 }
   
 .front-face,
 .back-face {
-  width: 2px solid deeppink;
-}
-
-img {
-  width: 100px;
+  border: 2px solid deeppink;
 }
