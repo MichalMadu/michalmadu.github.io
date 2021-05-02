@@ -7,7 +7,17 @@ box-sizing: border-box;
 body {
   height: 100vh;
   background: #6699ff;
+}
+
+.memory-game {
+  border: 2px solid limegreen;
+}
+
+.memory-card {
+  border: 2px solid aqua;
+}
   
+
 img {
   width: 100px;
 }
