@@ -46,4 +46,5 @@ body {
   position: absolute;
   border-radius: 5px;
   background: #1c7ccc;
+  backface-visibility: hidden;
 }
