@@ -20,6 +20,7 @@ body {
 .memory-card {
   width: 25%;
   height: 33.3333%;
+  position: relative;
   border: 2px solid aqua;
 }
   
