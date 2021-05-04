@@ -20,7 +20,7 @@ function flipCard() {
       firstCard.removeEvenListener('click', flipCard);
       secondCard.removeEventListener('click', flipCard);
      }
-     
+     console.log("Function has been Executed!");
    }
 }
 
