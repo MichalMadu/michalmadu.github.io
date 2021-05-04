@@ -16,8 +16,10 @@ function flipCard() {
      secondCard = this;
      
      // Do cards match?
-     console.log(firstCard.dataset.framework);
-     console.log(secondCard.dataset.framework);
+     if (firstCard.dataset.framework === secondCard.dataset.framework) {
+      firstCard.removeEvenListener('click', flipCard);
+      secondCard.removeEventListener('click', flipCard);
+     }
      
    }
 }
