@@ -19,8 +19,11 @@ function flipCard() {
      if (firstCard.dataset.framework === secondCard.dataset.framework) {
       firstCard.removeEventListener('click', flipCard);
       secondCard.removeEventListener('click', flipCard);
+     } else {
+       //not a match
+       firstCard.classList.remove('flip');
+       secondCard.classList.remove('flip');
      }
-     console.log("Function has been Executed!");
    }
 }
 
