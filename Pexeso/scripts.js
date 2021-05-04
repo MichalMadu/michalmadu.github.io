@@ -17,7 +17,7 @@ function flipCard() {
      
      // Do cards match?
      if (firstCard.dataset.framework === secondCard.dataset.framework) {
-      firstCard.removeEvenListener('click', flipCard);
+      firstCard.removeEventListener('click', flipCard);
       secondCard.removeEventListener('click', flipCard);
      }
      console.log("Function has been Executed!");
