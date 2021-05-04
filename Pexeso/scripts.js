@@ -15,7 +15,10 @@ function flipCard() {
      hasFlippedCard = false;
      secondCard = this;
      
-     console.log({firstCard, secondCard});
+     // Do cards match?
+     console.log(firstCard.dataset.framework);
+     console.log(secondCard.dataset.framework);
+     
    }
 }
 
