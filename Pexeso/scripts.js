@@ -21,8 +21,10 @@ function flipCard() {
       secondCard.removeEventListener('click', flipCard);
      } else {
        //not a match
+       setTimeout(() => {
        firstCard.classList.remove('flip');
        secondCard.classList.remove('flip');
+       }. 1500);
      }
    }
 }
