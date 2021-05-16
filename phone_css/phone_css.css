@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  .phone {
+    position: relative;
+    height: 128px;
+    width: 72px;
+    background: #0B9C9F;
+    background: linear-gradient(55deg, rgba(158,215,214,1) 0%, rgba(158,215,214,1) 50%, rgba(115,202,205,1) 50%, rgba(115,202,205,1) 100%);
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-bottom: 14px solid #10262C;
+    border-top: 8px solid #10262C;
+  }
+  
+  .phone::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: white;
+    left: 50%;
+    bottom: -12px;
+    transform: translatex(-50%);
+  }
